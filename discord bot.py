@@ -4,7 +4,7 @@ import time
 from LCG_random import *
 
 
-token = "MTIwMTIwMzQ3ODgxOTc3NDYyNQ.GGnorO.pD6ndCODxoHEivYa-LQjjABiNxosEYlsU0LKHM"
+token = "TOKEN"
 
 
 client = discord.Client(intents=discord.Intents.all())
