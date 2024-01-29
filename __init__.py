@@ -51,10 +51,3 @@ class LCG:
             X = R *math.cos(theta)
 
         return (X * (math.sqrt(variance))) + mean
-
-
-num = LCG(seed=100)
-print(num.normal_genarator(100,1000))
-print(num.int_generator([0,7]))#sample x.int_generator([lower_bound , upper bound]) #upper bound not included
-print(num.float_generator([0 , 7] , 2))
-print(num.normal_genarator(0 , 1))
